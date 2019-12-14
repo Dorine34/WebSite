@@ -33,14 +33,14 @@ header {
     justify-content: space-between;
     
 }
-.divers li:nth-child(2n), .centre li:nth-child(2n){
+.divers li:nth-child(2n), .centre li:nth-child(2n),.centreT li:nth-child(2n){
     background-color: lightgrey;
 
 }
 .divers li{
     padding: 2px;
 }
-.centre span {
+.centre span, .centreT span {
     vertical-align: top;
     display: inline-block;
     width : 70%;
@@ -72,7 +72,7 @@ header li{
     color : darkblue;
 }
 
-.divers h2, .centre h2 {
+.divers h2, .centre h2,  .centreT h2{
     color : #F5ECCE;
     background-color: #08298A;
     font-family: sans-serif;
@@ -92,10 +92,18 @@ header li{
     vertical-align: top;
     width : 69%;
 }
-.centre a{
+.centre a, .centreT a{
     display : inline-block;
     width : 100%;
 	text-decoration:none;
+}
+
+
+.centreT{
+    padding : 2%;
+    display : inline-block;
+    vertical-align: top;
+    width : 100%;
 }
 
 .comp article{
