@@ -52,9 +52,12 @@ ul{
     padding: 10px;
 }
 header img{
-    width : 50%;
     border-radius: 50%;
 }
+img{
+    width : 50%;
+}
+
 
 header aside{
     flex-basis : 30%;
@@ -126,7 +129,7 @@ header li{
 
 .flip-container, .front, .back {
 	width: 90%;
-	height: 400px;
+	height: 270px;
 }
 
 .flipper {
@@ -165,129 +168,6 @@ header li{
   perspective: 1000px;
 }
 
-.carousel {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  transform-style: preserve-3d;
-  transition: transform 10s;
-}
-
-.carousel__cell {
-  position: absolute;
-  width: 78%;
-  height: 100%;
-  left: 5%;
-  top: 5%;
-  border: 2px solid black;
-  line-height: 500%;
-  font-size: 100%;
-  font-weight: bold;
-  text-align: center;
-  
-}
-
-.carousel__cell:nth-child(2n+1) {
-	background: hsla( 210, 80%, 70%, 0.8);
-}
-.carousel__cell:nth-child(2n){
-	background: hsla( 40, 100%, 70%, 0.8);
-}
-
-
-/****************************************/
-@media screen and (min-width: 1200px) {
-    .carousel__cell{
-        max-width: 300px;
-    }
-    .carousel__cell:nth-child(1) { 
-         transform: rotateY(  0deg) translateZ(135px);
-    }
-    .carousel__cell:nth-child(2) { 
-         transform: rotateY( 60deg) translateZ(135px);
-    }
-    .carousel__cell:nth-child(3) { 
-         transform: rotateY(120deg) translateZ(135px);
-    }
-    .carousel__cell:nth-child(4) { 
-         transform: rotateY(180deg) translateZ(135px);
-    }
-    .carousel__cell:nth-child(5) { 
-         transform: rotateY(240deg) translateZ(135px);
-    }
-    .carousel__cell:nth-child(6) { 
-         transform: rotateY(300deg) translateZ(135px);
-    }
-    
-    
-    
-    
-    
-}
-@media screen and (max-width: 1200px) and (min-width: 600px) {
-    .carousel__cell{
-        max-width: 190px;
-    }
-    .carousel__cell:nth-child(1) { 
-         transform: rotateY(  0deg) translateZ(185px);
-    }
-    .carousel__cell:nth-child(2) { 
-         transform: rotateY( 60deg) translateZ(185px);
-    }
-    .carousel__cell:nth-child(3) { 
-         transform: rotateY(120deg) translateZ(185px);
-    }
-    .carousel__cell:nth-child(4) { 
-         transform: rotateY(180deg) translateZ(185px);
-    }
-    .carousel__cell:nth-child(5) { 
-         transform: rotateY(240deg) translateZ(185px);
-    }
-    .carousel__cell:nth-child(6) { 
-         transform: rotateY(300deg) translateZ(185px);
-    }
-    
-    
-    
-}
-@media screen and (max-width: 600px) {
-    .carousel__cell{
-        font-size: 50%;
-    }
-    .carousel__cell:nth-child(1) { 
-         transform: rotateY(  0deg) translateZ(120px);
-    }
-    .carousel__cell:nth-child(2) { 
-         transform: rotateY( 60deg) translateZ(120px);
-    }
-    .carousel__cell:nth-child(3) { 
-         transform: rotateY(120deg) translateZ(120px);
-    }
-    .carousel__cell:nth-child(4) { 
-         transform: rotateY(180deg) translateZ(120px);
-    }
-    .carousel__cell:nth-child(5) { 
-         transform: rotateY(240deg) translateZ(120px);
-    }
-    .carousel__cell:nth-child(6) { 
-         transform: rotateY(300deg) translateZ(120px);
-    }
-}
-/****************************************/
-.carousel {
-  animation: spin 30s infinite linear;
-}
-
-@keyframes spin {
-  from { transform: rotateY(0); }
-  to { transform: rotateY(360deg); }
-}
-label {
-    padding-right: 10px;
-    font-size: 1rem;
-}
-
-
 
 
 
@@ -309,4 +189,79 @@ label {
 .droit li a:hover, .milieu li a:hover {
   background-color: darkgray;
   color: white;
+}
+
+.flip-container {
+	perspective: 1000px;
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 90%;
+	/*height: 400px;*/
+}
+
+.flipper {
+	transition: 0.8s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.front, .back {
+	backface-visibility: hidden;
+	background-color: #C9D3FF ;
+	border-style: solid;
+	border-color: black;
+	position: absolute;
+	border-radius: 10px;
+
+}
+
+
+.front {
+	transform: rotateY(0deg);
+    text-align: center;
+}
+
+.back {
+	transform: rotateY(180deg);
+}
+
+/****************************************/
+
+
+.infodiv{
+    width: 100%;
+}
+
+.tiers{
+	display: inline-block;
+	width:32%;
+	vertical-align: top;
+}
+.exp{
+	margin-left: 10%;
+}
+
+.suiv, .prec{
+	width: 15%;
+	text-decoration: none;
+	
+}
+.suiv{
+	float: right;
+	margin-right: 4%;
+}
+.prec{
+	float: left;
+}
+.demis{
+	width: 47%;
+	display: inline-block;
+    vertical-align: text-top;
+}
+.pasdepoint{
+    list-style-type: none;
 }
