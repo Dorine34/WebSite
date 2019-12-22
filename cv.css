@@ -140,7 +140,7 @@ header li{
 
 .front, .back {
 	backface-visibility: hidden;
-	background-color: #D9E3FF;
+	background-color: #F1F5FF;
 	border-style: solid;
 	border-color: black;
 	position: absolute;
