@@ -211,7 +211,7 @@ header li{
 
 .front, .back {
 	backface-visibility: hidden;
-	background-color: #F1F5FF;
+	background-color: lightgrey;
 	border-style: solid;
 	border-color: black;
 	position: absolute;
