@@ -22,7 +22,7 @@ p, section, article, aside, nav, div{
     
 }
 body {
-    background-image: url(fond.png);  
+    background-color:  darkgrey;
     background-size: cover;
 }
 
