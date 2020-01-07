@@ -17,12 +17,12 @@ p, section, article, aside, nav, div{
 .main{
     width : 60%;
     margin : 50px auto;
-    background-color: burlywood;
+    background-color: white;
     opacity: 0.92;
     
 }
 body {
-    background-color:  lightgrey;
+    background-color:  lavender;
     background-size: cover;
 }
 
@@ -34,7 +34,7 @@ header {
     
 }
 .divers li:nth-child(2n), .centre li:nth-child(2n),.centreT li:nth-child(2n){
-    background-color: lightgrey;
+    background-color: lavender;
 
 }
 .divers li{
@@ -216,8 +216,6 @@ header li{
 	border-color: black;
 	position: absolute;
 	border-radius: 10px;
-	
-
 }
 
 
