@@ -1,25 +1,20 @@
 
-  
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900|PT+Sans:400,700|Quicksand:400,700|Raleway:400,700,800&display=swap');
 
 
-p, section, article, aside, nav, div{
-    box-sizing: border-box;
-	
-} 
 .txt{
-	
 	background-color: lightgrey;
-
 }
 
+p, section, article, aside, nav, div{
+    box-sizing: border-box;
+} 
 
 .main{
     width : 60%;
     margin : 50px auto;
     background-color: white;
     opacity: 0.92;
-    
 }
 body {
     background-color:  lavender;
@@ -31,15 +26,15 @@ header {
     display : flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
+
 .divers li:nth-child(2n), .centre li:nth-child(2n),.centreT li:nth-child(2n){
     background-color: lavender;
-
 }
 .divers li{
     padding: 2px;
 }
+
 .centre span, .centreT span {
     vertical-align: top;
     display: inline-block;
@@ -47,13 +42,16 @@ header {
     box-sizing: border-box;
     padding : 2px;
 }
+
 ul{
     list-style-type: none;
     padding: 10px;
 }
+
 header img{
     border-radius: 50%;
 }
+
 img{
     width : 50%;
 }
@@ -82,6 +80,7 @@ header li{
     padding-left: 1%;
     position : relative;
 }
+
 .divers{
     width : 30%;
     display : inline-block;
@@ -89,6 +88,7 @@ header li{
     padding : 2%;
     font-family: Quicksand,sans-serif;
 }
+
 .centre{
     padding : 2%;
     display : inline-block;
@@ -127,7 +127,7 @@ header li{
 	}
 
 .flip-container, .front, .back {
-	width: 100%;
+	width: 92%;
 	height: 280px;
 }
 
@@ -146,8 +146,6 @@ header li{
 	border-radius: 10px;
 
 }
-
-
 .front {
 	transform: rotateY(0deg);
     text-align: center;
@@ -156,6 +154,7 @@ header li{
 .back {
 	transform: rotateY(180deg);
 }
+
 
 .scene {
   margin: 40px 0;
@@ -166,8 +165,6 @@ header li{
   margin: 40px auto;
   perspective: 1000px;
 }
-
-
 
 
 .droit ul, .milieu ul {
@@ -188,44 +185,6 @@ header li{
 .droit li a:hover, .milieu li a:hover {
   background-color: darkgray;
   color: white;
-}
-
-.flip-container {
-	perspective: 1000px;
-}
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
-
-.flip-container, .front, .back {
-	width: 92%;
-	/*height: 400px;*/
-}
-
-.flipper {
-	transition: 0.8s;
-	transform-style: preserve-3d;
-	position: relative;
-	margin-left:20px;
-}
-
-.front, .back {
-	backface-visibility: hidden;
-	background-color: lightgrey;
-	border-style: solid;
-	border-color: black;
-	position: absolute;
-	border-radius: 10px;
-}
-
-
-.front {
-	transform: rotateY(0deg);
-    text-align: center;
-}
-
-.back {
-	transform: rotateY(180deg);
 }
 
 /****************************************/
