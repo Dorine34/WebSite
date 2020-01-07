@@ -29,7 +29,7 @@ header {
 }
 
 .divers li:nth-child(2n), .centre li:nth-child(2n),.centreT li:nth-child(2n){
-    background-color: lavender;
+    background-color: aliceblue;
 }
 .divers li{
     padding: 2px;
