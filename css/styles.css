@@ -83,7 +83,7 @@ img.svg{
 }
 
 .nav_languages a:hover{
-	color: orange;
+	color: yellow;
 	border-bottom : 2px solid gold ;
 }
 
@@ -92,6 +92,10 @@ img.svg{
 	float: left;
 	width : 25%;
 	text-align : center;
+}
+
+.nav_chosenLanguages {
+	color: orange ;
 }
 
 .arlo_tm_content{
