@@ -84,7 +84,7 @@ img.svg{
 
 .nav_languages a:hover{
 	color: #FDF5E6;
-	border-bottom : 2px solid #5daeff;
+	border-bottom : 2px solid #5daeff;/*languages*/
 }
 
 .nav_languages li{
@@ -95,7 +95,7 @@ img.svg{
 }
 
 .nav_chosenLanguages {
-	color:  #5daeff;
+	color:  #5daeff;/*languages*/
 }
 
 .arlo_tm_content{
@@ -257,7 +257,7 @@ img.svg{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.arlo_tm_leftpart_wrap .menu_list_wrap ul li a:hover{color: #5daeff;}
+.arlo_tm_leftpart_wrap .menu_list_wrap ul li a:hover{color: #5daeff;}/*menu*/
 .arlo_tm_leftpart_wrap .menu_list_wrap ul li a:hover:before{width: 35px;}
 .arlo_tm_leftpart_wrap .leftpart_bottom{
 	position: absolute;
@@ -464,7 +464,7 @@ img.svg{
 .arlo_tm_hero_header_wrap .name_holder h3{
 	font-family: "Montserrat";
 	text-transform: uppercase;
-	color: #5daeff;
+	color: #5daeff;/*titre*/
 	font-size: 50px;
 	font-weight: 300;
 }
@@ -564,12 +564,13 @@ img.svg{
 	letter-spacing: -.5px;
 	padding-left: 25px;
 	line-height: 1;
-/*	font-style: italic;*/
+	font-style: italic;
 }
 .arlo_tm_title_holder span{
 	font-size: 16px;
 	font-family: "Montserrat";
 	padding-left: 25px;
+	color: #4d4ca7;
 }
 .arlo_tm_about_wrapper_all{
 	width: 100%;
@@ -607,7 +608,7 @@ img.svg{
 	font-size: 30px;
 	line-height: 1;
 }
-.arlo_tm_main_title_holder h3 span{position: relative; }
+.arlo_tm_main_title_holder h3 span{position: relative;}
 .arlo_tm_main_title_holder h3 span:before{
     position: absolute;
 	content: "";
@@ -795,7 +796,7 @@ img.svg{
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-.arlo_tm_about_wrap .about_short_contact_wrap ul li a:hover{color: #5daeff;}
+.arlo_tm_about_wrap .about_short_contact_wrap ul li a:hover{color: #5daeff;}/*mystere*/
 .arlo_tm_about_wrap .buttons_wrap{
 	width: 100%;
 	height: auto;
@@ -818,6 +819,7 @@ img.svg{
 .arlo_tm_about_wrap .buttons_wrap ul li a span{
 	position: relative;
 	z-index: 2;
+
 
 }
 .arlo_tm_about_wrap .buttons_wrap ul li a{
