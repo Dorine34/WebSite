@@ -435,7 +435,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_universal_box_wrap .overlay_color.hero{background-color:    #FDF5E6  ;}/*moutarde*/
+.arlo_tm_universal_box_wrap .overlay_color.hero{background-color: #f3e2bf ;}/*moutarde*/
 .arlo_tm_universal_box_wrap .content.hero{height: 100vh;}
 .arlo_tm_hero_header_wrap .inner_content{
 	position: absolute;
@@ -567,8 +567,9 @@ img.svg{
 /*	font-style: italic;*/
 }
 .arlo_tm_title_holder span{
+	font-style: italic;
 	font-size: 16px;
-	font-family: "Montserrat";
+	font-family: "Open Sans";
 	padding-left: 25px;
 }
 .arlo_tm_about_wrapper_all{
