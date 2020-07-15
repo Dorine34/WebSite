@@ -83,7 +83,7 @@ img.svg{
 }
 
 .nav_languages a:hover{
-	color: #FDF5E6;
+	color: #e6f2fa;
 	border-bottom : 2px solid #5daeff;
 }
 
@@ -435,7 +435,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_universal_box_wrap .overlay_color.hero{background-color: #f3e2bf ;}/*moutarde*/
+.arlo_tm_universal_box_wrap .overlay_color.hero{background-color: #e6f2fa ;}/*moutarde*/
 .arlo_tm_universal_box_wrap .content.hero{height: 100vh;}
 .arlo_tm_hero_header_wrap .inner_content{
 	position: absolute;
@@ -858,7 +858,7 @@ img.svg{
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_skills_wrap{
-	background-color: #FDF5E6;
+	background-color: #e6f2fa;
 	padding: 90px 0px;
 	margin-bottom: 100px;
 }
