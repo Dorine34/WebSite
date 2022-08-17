@@ -1,10 +1,9 @@
+
 /*@charset "utf-8";*/
 /*
 /*	Copyright (c) 2018 Marketify
 /*	Author: Marketify
 /*	This file is made for CURRENT TEMPLATE
-
-
 	01) ARLO BASE
 	02) ARLO CONTENT
 	03) ARLO ABOUT
@@ -21,15 +20,11 @@
 	13) ARLO PORTFOLIO SINGLE
 	14) ARLO MOBILE HEADER
     15) ARLO MEDIA QUERIES (FOR SMALL DEVICES)
-
-
 /*---------------------------------------------------*/
 /*	01) ARLO BASE
 /*---------------------------------------------------*/
 
 html {
-	   transform: scale(1.1);
-   	transform-origin: 0 0;
 	overflow-x: hidden;
 	padding: 0px;
 	margin: 0px
